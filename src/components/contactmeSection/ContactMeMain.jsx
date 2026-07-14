@@ -1,6 +1,7 @@
 import React from 'react';
 import ContactMeLeft from './ContactMeLeft';
 import ContactMeRight from './ContactMeRight';
+// eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion';
 import { fadeIn } from '../../framerMotion/variants';
 

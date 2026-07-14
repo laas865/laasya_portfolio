@@ -1,4 +1,5 @@
 import React from 'react';
+// eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion';
 import { fadeIn } from "../../framerMotion/variants.js";
 
@@ -23,7 +24,7 @@ const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className='md:text-[2.8rem] lg:text-6xl sm:text-4xl font-bold font-special text-orange'
       >
-        Laasya Grandhi
+        Grandhi Laasya
       </motion.h1>
 
       <motion.p
@@ -42,7 +43,7 @@ const HeroText = () => {
         initial='hidden'
         whileInView='show'
         viewport={{ once: false, amount: 0 }}
-        href="../../public/images/myresume.pdf"
+        href={`${import.meta.env.BASE_URL}images/LAASYA_RESUME.pdf`}
         download
       >
         <button className='mt-4 px-6 py-2 border-2 border-emerald-50 bg-orange text-white rounded-2xl shadow-md hover:bg-darkCyan transition-colors duration-300 ease-in-out'>

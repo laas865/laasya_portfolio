@@ -3,7 +3,7 @@ import React from 'react'
 const ExperienceTopMiddle = () => {
   return (
     <div className='lg:w-[35%] md:w-[50%] sm:w-[60%]'>
-      <img src='../..\public\images\experience-image.png' alt='experience image'/>
+      <img src={`${import.meta.env.BASE_URL}images/experience-image.png`} alt='experience image' />
     </div>
   )
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import ProjectsText from './ProjectsText';
 import SingleProject from './SingleProject';
+// eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion';
 import { fadeIn } from '../../framerMotion/variants';
 
@@ -9,24 +10,25 @@ const projects = [
     name: 'TO-DO list',
     year: '2025',
     align: 'right',
-    image: '../../public/images/website-img-1.jpg',
+    image: `${import.meta.env.BASE_URL}images/website-img-1.jpg`,
     link: 'https://github.com/laas865/To-Do-List_LAASYA.git',
   },
   {
     name: 'Glucose Prediction Test',
     year: '2025',
     align: 'left',
-    image: '../../public/images/website-img-2.webp',
+    image: `${import.meta.env.BASE_URL}images/website-img-2.webp`, // ✅ fixed path
     link: 'https://github.com/laas865/Glucose_prediction_test.git',
   },
   {
     name: 'Breast Cancer Prediction',
     year: '2025',
     align: 'right',
-    image: '../../public/images/website-img-3.jpg',
+    image: `${import.meta.env.BASE_URL}images/website-img-3.jpg`, // ✅ fixed path
     link: 'https://github.com/laas865/Breast_Cancer_Prediction_test.git',
   },
 ];
+
 
 const ProjectsMain = () => {
   return (

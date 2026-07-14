@@ -10,7 +10,7 @@ const SingleProject = ({name , year , align , image , link}) => {
           View <BiSolidRightTopArrowCircle />
         </a>
       </div>
-      <div className='max-h-[220px] max-w-[400px] rounded-xl overflow-hidden hover:scale-110 transform transition-allduration-500 relative-position border border-white'>
+      <div className='max-h-[220px] max-w-[400px] rounded-xl overflow-hidden hover:scale-110 transform transition-all duration-500 relative border border-white'>
         <div className='w-full h-full bg-cyan opacity-50 absolute top-0 left-0 hover:opacity-0 transition-all duration-500 md:block sm:hidden'></div>
         <img src={image} alt='project image' className='w-full h-full'/>
       </div>

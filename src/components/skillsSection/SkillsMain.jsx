@@ -2,6 +2,7 @@ import React from 'react';
 import SkillsText from './SkillsText';
 import AllSkills from './AllSkills';
 import AllSkillsSM from './AllSkillsSM';
+// eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion';
 import { fadeIn } from '../../framerMotion/variants';
 

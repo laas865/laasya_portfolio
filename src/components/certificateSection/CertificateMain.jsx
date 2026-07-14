@@ -1,6 +1,7 @@
 import React from 'react';
 import CertificateText from './CertificateText';
 import SingleCertificate from './SingleCertificate';
+// eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion';
 import { fadeIn } from '../../framerMotion/variants';
 
@@ -8,14 +9,15 @@ const certificates = [
   {
     title: 'Full Stack Development with MERN',
     year: '2025',
-    image: '../../public/images/Screenshot 2025-07-19 230222.png',
+    image: `${import.meta.env.BASE_URL}images/Screenshot 2025-07-19 230222.png`,
   },
   {
     title: 'Skillfied Mentor Internship for Machine Learning',
     year: '2025',
-    image: '../../public/images/Screenshot 2025-07-19 230156.png',
+    image: `${import.meta.env.BASE_URL}images/Screenshot 2025-07-19 230156.png`,
   },
 ];
+
 
 const CertificateMain = () => {
   return (
